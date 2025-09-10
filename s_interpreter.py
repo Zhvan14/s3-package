@@ -225,12 +225,12 @@ def run_s_code(lines, functions=None, parent_vars=None, parent_last_input=None):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="S2 Language Interpreter CLI")
-    parser.add_argument('file', nargs='?', help="S2 program file (.s2) to run")
-    parser.add_argument('--help-s2', action='store_true', help="Show S2 language help and exit")
+    parser = argparse.ArgumentParser(description="S3 Language Interpreter CLI")
+    parser.add_argument('file', nargs='?', help="S3 program file (.S3) to run")
+    parser.add_argument('--help-S3', action='store_true', help="Show S3 language help and exit")
     args = parser.parse_args()
 
-    if args.help_s2:
+    if args.help_S3:
         display_help()
         sys.exit(0)
 
@@ -242,7 +242,7 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error: {e}")
     else:
-        print("Enter your S2 program, finish with an empty line:")
+        print("Enter your S3 program, finish with an empty line:")
         code_lines = []
         while True:
             try:
