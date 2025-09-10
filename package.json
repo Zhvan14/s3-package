@@ -1,6 +1,6 @@
 {
   "name": "s3-interpreter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line interpreter for the S3 language.",
   "main": "cli.js",
   "bin": {
