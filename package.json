@@ -1,0 +1,33 @@
+{
+  "name": "s3-interpreter",
+  "version": "1.0.0",
+  "description": "A command-line interpreter for the S3 language.",
+  "main": "cli.js",
+  "bin": {
+    "s3interpret": "./cli.js",
+    "s3run": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "language",
+    "interpreter",
+    "cli"
+  ],
+  "author": "Zhvan",
+  "license": "MIT",
+  "files": [
+    "cli.js",
+    "s_interpreter.py",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhvan14/s3-package.git"
+  }
+}
